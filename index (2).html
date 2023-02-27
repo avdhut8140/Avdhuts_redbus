@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap By SKILLHUB</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <!-- search -->
+
+  <div class="alert alert-primary m-0 collapse" id="search">
+    <div class="container">
+
+      <div class="input-group">
+        <input type="text" class="form-control">
+        <button type="button" class="btn btn-primary">Search</button>
+      </div>
+
+      <h4 class="my-4">Quick Links</h4>
+
+      <div class="row">
+        <div class="col-sm-3">
+          <p> <a href="">dummy link1</a></p>
+          <p> <a href="">dummy link2</a></p>
+          <p> <a href="">dummy link3</a></p>
+          <p> <a href="">dummy link4</a></p>
+        </div>
+
+        <div class="col-sm-3">
+          <p> <a href="">link1</a></p>
+          <p> <a href="">link2</a></p>
+          <p> <a href="">link3</a></p>
+          <p> <a href="">link4</a></p>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <div class="row">
+
+                <div class="col-sm-6">
+                  <img class="img-fluid" src="" alt="">
+                </div>
+
+                <div class="col-sm-6">
+                  <h3>Featured Product</h3>
+                  <p>Lorem ipsum</p>
+                  <button type="button" class="btn btn-outline-primary">Shop now</button>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- search-end -->
+  <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">SKILLKART</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+        <span class="navbar-toggler-<i class=" bi bi-credit-card-2-back"></i>"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+        <!-- d-flex justify-content-between -->
+
+        <div class="navbar-nav">
+          <!-- dropdown start-->
+
+          <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1"
+            data-bs-toggle="dropdown">
+            Menu
+          </button>
+          <div class="dropdown-menu w-100 alert alert-primary">
+
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-4">
+                  <div class="d-flex my-5 gap-4">
+                    <span class="fs-1"><i class="bi bi-bag"></i></span>
+                    <div>
+                      <h3>Laptop</h3>
+                      <p>Lorem ipsum</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-4">
+                  <div class="d-flex my-5 gap-4">
+                    <span class="fs-1"><i class="bi bi-bag"></i></span>
+                    <div>
+                      <h3>Laptop</h3>
+                      <p>Lorem ipsum</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-4">
+                  <div class="d-flex my-5 gap-4">
+                    <span class="fs-1"><i class="bi bi-bag"></i></span>
+                    <div>
+                      <h3>Laptop</h3>
+                      <p>Lorem ipsum</p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+          <!-- dropdown end-->
+
+        </div>
+
+        <div class="ms-auto">
+          <button type="button" class="btn btn-outline-light" data-bs-toggle="collapse" data-bs-target="#search"><i
+              class="bi bi-search"></i></button>
+          <button type="button" class="btn btn-outline-light" data-bs-toggle="offcanvas" data-bs-target="#cart"><i
+              class="bi bi-bag-check"></i></button>
+          <button type="button" class="btn btn-light" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasExample">Login<i class="bi bi-person-fill-lock"></i></button>
+        </div>
+
+
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- login -->
+
+  <div class="offcanvas offcanvas-start" id="offcanvasExample">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+      <p>Enter Email</p>
+      <input type="text" class="form-control" placeholder="Enter Email">
+      <br>
+      <p>Enter Password</p>
+      <input type="text" class="form-control" placeholder="Enter Password">
+    </div>
+  </div>
+
+  <!-- login-end -->
+
+  <!-- cart start -->
+
+  <div class="offcanvas offcanvas-start" id="cart">
+    <div class="offcanvas-header bg-primary text-bg-dark">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+
+    <div class="offcanvas-body">
+      <div class="card">
+        <div class="card-body">body</div>
+        <div class="row">
+
+          <div class="col-sm-5">
+            <img class="img-fluid"
+              src="https://rukminim1.flixcart.com/image/312/312/xif0q/computer/p/z/c/-original-imaghr25cncfgpza.jpeg?q=70"
+              alt="">
+          </div>
+          <div class="col-sm-3">
+            <span>Qty : 2</span>
+          </div>
+          <div class="col-sm-4">
+            <strong>7811/-</strong>
+          </div>
+
+        </div>
+        <h5 class="text-success">You have saved 750/-</h5>
+        <div class="btn-group w-100">
+          <div class="button" class="btn btn-danger">Remove</div>
+          <div class="button" class="btn btn-warning">Wishlist</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- cart end -->
+  <br><br><br><br>
+  <!-- carousel start -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-item active">
+      <div class="row">
+        <div class="col-sm-4 text-end">
+          <img class="img-fluid"
+            src="https://rukminim1.flixcart.com/image/416/416/l5fnhjk0/dslr-camera/g/t/7/eos-r10-24-2-r10-canon-original-imagg4y52cybasdr.jpeg?q=70"
+            alt="">
+        </div>
+        <div class="col-sm-4">
+          <h3>Dell Xps 13 Pro</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem laboriosam itaque inventore ex enim
+            nobis? Eligendi porro ipsa quae culpa impedit, dolorem neque incidunt dolore iure provident suscipit vel
+            pariatur!</p>
+          <button type="button" class="btn btn-primary">Shop now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item active">
+      <div class="row">
+        <div class="col-sm-4 text-end">
+          <img class="img-fluid"
+            src="https://rukminim1.flixcart.com/image/416/416/k7f34i80/cases-covers/back-cover/u/k/f/loudcase-infht8l587-original-imafpz3gkfwczw6w.jpeg?q=70"
+            alt="">
+        </div>
+        <div class="col-sm-4">
+          <h3>Dell Xps 13 Pro</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem laboriosam itaque inventore ex enim
+            nobis? Eligendi porro ipsa quae culpa impedit, dolorem neque incidunt dolore iure provident suscipit vel
+            pariatur!</p>
+          <button type="button" class="btn btn-primary">Shop now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item active">
+      <div class="row">
+        <div class="col-sm-4 text-end">
+          <img class="img-fluid"
+            src="https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/t/5/r/-original-imagjzxuggyzybxf.jpeg?q=70"
+            alt="">
+        </div>
+        <div class="col-sm-4">
+          <h3>Dell Xps 13 Pro</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem laboriosam itaque inventore ex enim
+            nobis? Eligendi porro ipsa quae culpa impedit, dolorem neque incidunt dolore iure provident susci
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-<i class=" bi bi-credit-card-2-back"></i>"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-<i class=" bi bi-credit-card-2-back"></i>"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-<i class=" bi bi-credit-card-2-back"></i>"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  </div>
+  <br><br><br><br><br>
+  <br><br><br><br><br>
+  <br><br><br><br><br>
+  <br><br><br><br><br>
+  <!-- carousel end -->
+
+  <div class="bg-primary">
+
+    <div class="container align-content-center">
+      <div class="row p-4 m-3 text-light">
+        <div class="col-sm-4">
+          <span class="fs-4"><i class="bi bi-credit-card-2-back"></i></span>
+          <div>
+            <h4>hellow</h4>
+            <p>lorem appler balace </p>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <span class="fs-4"><i class="bi bi-credit-card-2-back"></i></span>
+          <div>
+            <h4>hellow</h4>
+            <p>lorem appler balace </p>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <span class="fs-4"><i class="bi bi-credit-card-2-back"></i></span>
+          <div>
+            <h4>hellow</h4>
+            <p>lorem appler balace </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- fetaured products start -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+
+            <div class="row">
+              <div class="col-sm-8">
+                <img class="img-fluid"
+                  src="https://rukminim1.flixcart.com/image/416/416/kst9gnk0/monitor/v/j/z/p2422h-full-hd-24-210-bbdd-dell-original-imag6arzt5cqpqkq.jpeg?q=70"
+                  alt="">
+              </div>
+              <div class="col-sm-4">
+                <img class="img-fluid"
+                  src="https://rukminim1.flixcart.com/image/416/416/ktbu6q80/monitor/0/z/2/se2222h-full-hd-22-210-azhg-dell-original-imag6zzkxzdajjs8.jpeg?q=70"
+                  alt="">
+                <img class="img-fluid"
+                  src="https://rukminim1.flixcart.com/image/416/416/ktbu6q80/monitor/0/z/2/se2222h-full-hd-22-210-azhg-dell-original-imag6zzkxzdajjs8.jpeg?q=70"
+                  alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="alert alert-primary">
+
+            <div class="d-flex justify-content-between">
+              <span> fake</span>
+              <span>strating at form 78872</span>
+            </div>
+            <button type="button" class="btn btn-outline-primary w-100">shop now</button>
+
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+
+      </div>
+
+      <div class="col-sm-4">
+
+      </div>
+    </div>
+  </div>
+  <br><br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card border-success text-center">
+
+          <div class="card-body d-flex justify-content-between">
+            <button type="button" class="btn btn-success">most popular</button>
+            <span><i class="bi bi-heart"></i></span>
+          </div>
+          <div class=" text-center">
+            <img class="w-50"
+              src="https://rukminim1.flixcart.com/image/416/416/k80iqa80/router/u/g/h/d-link-dir-615-original-imafq49umyfzx5te.jpeg?q=70"
+              alt="">
+          </div>
+
+          <div class="d-flex justify-content-center">
+            <h3> apple</h3>
+          </div>
+
+          <div class="d-flex justify-content-center">
+            <span><i class="bi bi-star"></i></span>
+            <span><i class="bi bi-star"></i></span>
+            <span><i class="bi bi-star"></i></span>
+            <span><i class="bi bi-star"></i></span>
+            <span><i class="bi bi-star"></i></span>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="card border-success text-center">
+
+          <div class="card-body d-flex justify-content-between">
+            <button type="button" class="btn btn-success">most popular</button>
+            <span><i class="bi bi-heart"></i></span>
+          </div>
+          <div class=" text-center">
+            <img class="w-50"
+              src="https://rukminim1.flixcart.com/image/416/416/k80iqa80/router/u/g/h/d-link-dir-615-original-imafq49umyfzx5te.jpeg?q=70"
+              alt="">
+          </div>
+
+          <div class="d-flex justify-content-center">
+            <h3> apple</h3>
+          </div>
+
+          <div class="d-flex justify-content-center">
+            <span><i class="bi bi-star"></i></span>
+            <span><i class="bi bi-star"></i></span>
+            <span><i class="bi bi-star"></i></span>
+            <span><i class="bi bi-star"></i></span>
+            <span><i class="bi bi-star"></i></span>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="col-sm-4">
+        <div class="card border-success text-center">
+
+          <div class="card-body d-flex justify-content-between">
+            <button type="button" class="btn btn-success">most popular</button>
+            <span><i class="bi bi-heart"></i></span>
+          </div>
+          <div class=" text-center">
+            <img class="w-50"
+              src="https://rukminim1.flixcart.com/image/416/416/k80iqa80/router/u/g/h/d-link-dir-615-original-imafq49umyfzx5te.jpeg?q=70"
+              alt="">
+          </div>
+
+          <div class="d-flex justify-content-center">
+            <h3> apple</h3>
+          </div>
+
+          <div class="d-flex justify-content-center">
+            <span><i class="bi bi-star"></i></span>
+            <span><i class="bi bi-star"></i></span>
+            <span><i class="bi bi-star"></i></span>
+            <span><i class="bi bi-star"></i></span>
+            <span><i class="bi bi-star"></i></span>
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+  <!-- fetaured products end -->
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
